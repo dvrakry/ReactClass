@@ -25,17 +25,17 @@ function App() {
         <div>개발 Blog</div>
       </div>
       {/* <button onClick={ 제목바꾸기 }>버튼</button> */}
-      <div>
+      <div className='list'>
         <h4>{ 글제목[0] } <span onClick={ ()=>{ 따봉변경(따봉 + 1) } }>👍</span> {따봉} </h4>
         <p>2월 17일 발행</p>
         <hr/>
       </div>
-      <div>
+      <div className='list'>
         <h4>{ 글제목[1] }</h4>
         <p>2월 18일 발행</p>
         <hr/>
       </div>
-      <div>
+      <div className='list'>
         <h4>{ 글제목[2] }</h4>
         <p>2월 19일 발행</p>
         <hr/>
